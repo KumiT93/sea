@@ -1,0 +1,41 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  padding-left: 30px;
+  // background: #808080;
+}
+.nav-search-first {
+  display: flex;
+}
+.navbar-second {
+  justify-content: space-between;
+  padding-left: 30px;
+  background: white;
+}
+.nav-sns {
+  justify-content: space-between;
+}
+
+.sns {
+  font-size: 20px;
+
+}
+.home-search {
+  display: flex;
+  align-items: center;
+}
+.home-search-field{
+  border-radius: 5px;
+  height: 43px;
+  width: 62vw;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
