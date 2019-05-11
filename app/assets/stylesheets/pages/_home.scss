@@ -1,41 +1,74 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  padding-left: 30px;
-  // background: #808080;
+.home-banner {
+  height: 80vh;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
 }
-.nav-search-first {
-  display: flex;
+
+.home-banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
 }
-.navbar-second {
+
+.home-banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.container h1 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+.container p {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.middle-navbar {
   justify-content: space-between;
   padding-left: 30px;
   background: white;
-}
-.nav-sns {
-  justify-content: space-between;
-}
-
-.sns {
-  font-size: 20px;
-
-}
-.home-search {
   display: flex;
+  height: 15vh;
   align-items: center;
 }
-.home-search-field{
-  border-radius: 5px;
-  height: 43px;
-  width: 62vw;
-  margin-left: 10px;
-  padding-left: 10px;
-  border-radius: 5px;
+
+.middle-navbar-link {
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+.middlenav-icons {
+  font-size: 2.5rem;
+}
+.middle-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+#nav-hotel {
+  color: pink;
+}
+#nav-ship {
+  color: blue;
+}
+#nav-utensils {
+  color: orange;
+}
+#nav-subway {
+  color: purple;
+}
+#nav-mountain {
+  color: green;
+}
+#nav-bag {
+  color: yellow;
 }

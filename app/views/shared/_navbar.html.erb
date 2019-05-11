@@ -1,0 +1,71 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon nav-sns">
+  <div class="mr-auto nav-search-first">
+  <%= link_to "#", class: "navbar-brand" do %>
+    <%= image_tag "https://res.cloudinary.com/drsb1n3km/image/upload/v1557497562/download.png" %>
+  <% end %>
+
+  <%= form_tag islands_index_path, method: :get, class: 'search-form home-search ' do %>
+    <i class="fas fa-search"></i>
+    <%= text_field_tag :query, params[:query], class: "form-home mr-sm-6 search-field home-search-field", placeholder: "ホテル、レストラン、観光名所を探す", autocomplete: 'off' %>
+  <% end %>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <%= link_to "#" do %>
+        <i class="fab fa-facebook-square nav-link sns"></i>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "#" do %>
+        <i class="fab fa-instagram nav-link sns"></i>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "#" do %>
+        <i class="fab fa-line nav-link sns"></i>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "#" do %>
+        <i class="fab fa-twitter-square nav-link sns"></i>
+        <% end %>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="navbar navbar-expand-sm navbar-light navbar-second">
+  <%= link_to "#", class: "navbar-brand" do %>
+    <i class="fas fa-home"></i>
+  <% end %>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "探す", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "泊まる", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "遊ぶ", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "食べる", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "買い物", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "自然・名所", "#", class: "nav-link" %>
+      </li>
+    </ul>
+  </div>
+</div>
+
