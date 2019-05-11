@@ -3,10 +3,16 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.0.2",
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
-    "react-stack-grid": "^0.7.1"
+    "react-stack-grid": "^0.7.1",
+    "vue": "^2.6.10",
+    "vue-eslint-parser": "^6.0.4",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.3.1"
