@@ -34,7 +34,7 @@
   padding-left: 30px;
   background: white;
   display: flex;
-  height: 15vh;
+  height: 18vh;
   align-items: center;
 }
 
@@ -43,6 +43,11 @@
   justify-content: space-around;
   display: flex;
   width: 100%;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .middlenav-icons {
   font-size: 2.5rem;
@@ -53,22 +58,46 @@
   align-items: center;
 }
 
-
+// id in middle-navbar
 #nav-hotel {
-  color: pink;
+  color: #ee7777;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
 #nav-ship {
-  color: blue;
+  color: #0d0cb5;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
 #nav-utensils {
-  color: orange;
+  color: #f69314;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
 #nav-subway {
-  color: purple;
+  color: #103c42;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
 #nav-mountain {
-  color: green;
+  color: #0b8457;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
 #nav-bag {
-  color: yellow;
+  color: #fdd043;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }

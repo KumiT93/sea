@@ -1,4 +1,4 @@
-<div class="home-banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/drsb1n3km/image/upload/v1557548508/uluru-2058380_1920.jpg);">
+<div class="home-banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(https://res.cloudinary.com/drsb1n3km/image/upload/v1557548508/uluru-2058380_1920.jpg);">
   <div class="container">
     <h1>AUSTRALIA!</h1>
     <p>さぁ、冒険に出かけよう！</p>
@@ -6,9 +6,6 @@
 </div>
 
 <div class="middle-navbar navbar-expand-sm navbar-light">
-  <%#= link_to "#", class: "navbar-brand" do %>
-    <!-- <i class="fas fa-home"></i> -->
-  <%# end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,30 +13,30 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav middle-navbar-link">
-      <li class="nav-item middle-items" id='nav-hotel'>
-        <i class="middlenav-icons fas fa-hotel"></i>
-        <%= link_to "泊まる", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item middle-items" id='nav-ship'>
-        <i class="middlenav-icons fas fa-ship"></i>
-        <%= link_to "体験する", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item middle-items" id='nav-subway'>
-        <i class="middlenav-icons fas fa-subway"></i>
-        <%= link_to "交通", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item middle-items" id='nav-utensils'>
-        <i class="middlenav-icons fas fa-utensils"></i>
-        <%= link_to "食べる", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item middle-items" id='nav-bag'>
-        <i class="middlenav-icons fas fa-shopping-bag"></i>
-        <%= link_to "買い物", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item middle-items" id='nav-mountain'>
-        <i class="middlenav-icons fas fa-mountain"></i>
-        <%= link_to "自然・名所", "#", class: "nav-link" %>
-      </li>
+      <%= link_to "#", class: 'links' do %>
+        <i class="middlenav-icons fas fa-hotel nav-link" id='nav-hotel'></i>
+        <p class='nav-link links-p'>泊まる</p>
+      <% end %>
+      <%= link_to "#", class: 'links' do %>
+        <i class="middlenav-icons fas fa-ship nav-link" id='nav-ship'></i>
+        <p class='nav-link links'>体験する</p>
+      <% end %>
+      <%= link_to "#", class: 'links' do %>
+        <i class="middlenav-icons fas fa-utensils nav-link" id='nav-utensils'></i>
+        <p class='nav-link links-p'>食べる</p>
+      <% end %>
+      <%= link_to "#", class: 'links' do %>
+        <i class="middlenav-icons fas fa-shopping-bag nav-link" id='nav-bag'></i>
+        <p class='nav-link links-p'>買う</p>
+      <% end %>
+      <%= link_to "#", class: 'links' do %>
+        <i class="middlenav-icons fas fa-mountain nav-link" id='nav-mountain'></i>
+        <p class='nav-link links-p'>自然・名所</p>
+      <% end %>
+      <%= link_to "#", class: 'links' do %>
+        <i class="middlenav-icons fas fa-subway nav-link" id='nav-subway'></i>
+        <p class='nav-link links-p'>交通</p>
+      <% end %>
     </ul>
   </div>
 </div>
