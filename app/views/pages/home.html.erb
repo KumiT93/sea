@@ -40,10 +40,12 @@
     </ul>
   </div>
 </div>
+
+<%#= javascript_pack_tag 'cards' %>
 <h1 class="title">Hover over the cards</h1>
 
-<div id="app" class="container">
-  <card data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=">
+<div id="app" class="card-container">
+  <card data-image="https://cdn.pixabay.com/photo/2011/09/28/23/19/koala-bear-9960_1280.jpg">
     <h1 slot="header">Canyons</h1>
     <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
   </card>
@@ -59,4 +61,5 @@
     <h1 slot="header">Lakes</h1>
     <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
   </card>
+  <h2>hola</h2>
 </div>

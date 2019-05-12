@@ -1,30 +1,7 @@
-// import React, { Component } from "react";
-// import StackGrid from "react-stack-grid";
+import Vue from 'vue'
+import App from './components/app.vue'
 
-// class MyComponent extends Component {
-//   render() {
-//     return (
-//       <StackGrid
-//         columnWidth={150}
-//       >
-//         <div key="key1">Item 1</div>
-//         <div key="key2">Item 2</div>
-//         <div key="key3">Item 3</div>
-//       </StackGrid>
-//     );
-//   }
-// }
-// export default {
-//   data: function () {
-//     return {
-//       // この文字列が画面に表示されている
-//       message: "Hello Vue!"
-//     }
-//   }
-// }
-
-
-Vue.config.devtools = true;
+// Vue.config.devtools = true;
 Vue.component('card', {
   template: `
     <div class="card-wrap"
@@ -98,5 +75,5 @@ Vue.component('card', {
 });
 
 const app = new Vue({
-  el: '#app'
+ el: $('#app')
 });

@@ -57,6 +57,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
@@ -85,7 +86,7 @@ h1+p, p+p {
   margin-top: 10px;
 }
 
-.container {
+.card-container {
   padding: 40px 80px;
   display: flex;
   flex-wrap: wrap;
