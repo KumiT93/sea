@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'restaurants/index'
+  get 'restaurants/show'
+  get 'restaurants/create'
+  get 'restaurants/destroy'
+
+  # devise_for :users
   get 'islands/index'
   get 'islands/show'
   root to: 'pages#home'
