@@ -1,0 +1,20 @@
+.restaurant-index {
+  height: 80vh;
+  object-fit: cover;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-index-search-field {
+  width: 20vw;
+  font-size: 0.8rem;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+.restaurants-banner-container {
+  // text-shadow: 1px 1px #dedede;
+}

@@ -1,1 +1,10 @@
-<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" class="d-block w-100" alt="..." style='height: 80vh; object-fit: cover; background-image: linear-gradient(rgba(0.5,0,0,0.7),rgba(0,0,0,0.7))'>
+<div class="restaurant-index" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1595&q=80);">
+  <div class="restaurants-banner-container">
+    <h1 class='text-center'>AUSTRALIA!</h1>
+    <p class='text-center'>ステーキやミートパイ、オーストラリアでしか食べられないものを見つけよう！</p>
+    <%= form_tag restaurants_index_path, method: :get, class: 'text-center search-form restaurant-index-search ' do %>
+    <i class="fas fa-search"></i>
+    <%= text_field_tag :query, params[:query], class: "text-center form-home mr-sm-6 search-field restaurant-index-search-field", placeholder: "食べるを検索", autocomplete: 'off' %>
+  <% end %>
+  </div>
+</div>
