@@ -58,12 +58,7 @@
   align-items: center;
 }
 
-.carousel-item {
-  // display: flex;
-}
-
 .cards-container {
-  // height: 100vh;
   padding: 3rem;
 }
 .cards {
@@ -79,6 +74,10 @@
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  &:hover {
+    box-shadow: 0 0 24px rgba(0,0,0, 0.6);
+  }
 }
 
 .card-trip > img {
@@ -86,12 +85,6 @@
   width: 100%;
   object-fit: cover;
 }
-
-// .card-trip h2 {
-//   font-size: 16px;
-//   // font-weight: bold;
-//   margin: 0;
-// }
 
 .card-trip p {
   font-size: 12px;
@@ -109,7 +102,6 @@
     background-color: red;
   }
 }
-
 .card-trip .card-trip-infos {
   padding: 16px;
   display: flex;
@@ -130,7 +122,6 @@
 }
 .load-btn {
   margin: 5vh 0;
-  // display: flex;
 }
 
 
