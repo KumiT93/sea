@@ -1,0 +1,36 @@
+.login-session-container {
+  padding: 3rem;
+}
+.sl-page-wrapper {
+  margin-bottom: 15vh;
+}
+
+.sl-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sl-form {
+  margin: 40px;
+  padding: 50px;
+  background-color: white;
+  width: 500px;
+  border: 1px solid #dbdbdb;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-top: 130px;
+}
+
+.sl-form h2 {
+  text-align: center;
+}
+
+.sl-form-names {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#sl-fullname {
+  margin-right: 15px;
+}

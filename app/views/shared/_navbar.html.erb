@@ -32,10 +32,12 @@
         <i class="fab fa-twitter-square nav-link sns"></i>
         <% end %>
       </li>
+      <li>
+        <%= link_to "Login", new_user_session_path, class: "nav-link log-in" %>
+      </li>
     </ul>
   </div>
 </div>
-<%= link_to "Login", new_user_session_path, class: "nav-link" %>
 
 <div class="navbar navbar-expand-sm navbar-light navbar-second">
   <%= link_to "#", class: "navbar-brand" do %>
