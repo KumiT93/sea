@@ -76,18 +76,21 @@
 <div class="cards-container">
   <div class="cards-wrapper">
     <div class="cards">
+      <%= link_to "#" do %>
       <div class="card-trip">
         <img src="https://cdn.pixabay.com/photo/2016/03/31/21/55/australia-1296727__480.png">
         <div class="card-trip-infos">
-          <div>
+          <div class='card-hover'>
             <h2>About Australia</h2>
-            <p>Short description here!</p>
+            <p>Short desccription here!</p>
             <p>オーストラリアはいいところ！</p>
           </div>
           <h2 class="card-btn btn-primary">街情報</h2>
           <img src='https://kitt.lewagon.com/placeholder/users/krokrob' class="card-trip-user avatar-bordered"/>
         </div>
       </div>
+      <% end %>
+
       <div class="card-trip">
         <img src="https://cdn.pixabay.com/photo/2014/06/06/09/36/sydney-363244_1280.jpg">
         <div class="card-trip-infos">
