@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon nav-sns">
   <div class="mr-auto nav-search-first">
-  <%= link_to "#", class: "navbar-brand" do %>
+  <%= link_to root_path, class: "navbar-brand" do %>
     <%= image_tag "https://res.cloudinary.com/drsb1n3km/image/upload/v1557497562/download.png" %>
   <% end %>
 
@@ -32,10 +32,22 @@
         <i class="fab fa-twitter-square nav-link sns"></i>
         <% end %>
       </li>
+      <% if user_signed_in? %>
+      <li>
+        <%= link_to "write articles", articles_create_path, class: "nav-link log-in" %>
+      </li>
+      <li><%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link log-in" %></li>
+      <% else %>
+      <li>
+        <%= link_to "Sign Up", new_user_registration_path, class: "nav-link log-in" %>
+      </li>
+      <li>
+        <%= link_to "Login", new_user_session_path, class: "nav-link log-in" %>
+      </li>
+      <% end %>
     </ul>
   </div>
 </div>
-<%= link_to "Login", new_user_session_path, class: "nav-link" %>
 
 <div class="navbar navbar-expand-sm navbar-light navbar-second">
   <%= link_to "#", class: "navbar-brand" do %>
