@@ -15,5 +15,12 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   devise_for :users
+
+  # resources :teachers, only: [:show, :index] do
+  resources :articles, only: [:new, :create, :show, :edit, :destroy]
+  #  member do
+  #    resources :evaluations, only: [:index]
+  #  end
+  # end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
